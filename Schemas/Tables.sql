@@ -3,7 +3,7 @@ GO
 USE ProjectManagement
 GO
 
-CREATE TABLE Employee+
+CREATE TABLE Employee
 (
     EmployeeID CHAR(5) PRIMARY KEY,
     EmployeeName varchar2(50),
