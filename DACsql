@@ -1,2 +1,0 @@
--- Chi truong phong duoc cap nhat va them thong tin vao Du An
-grant insert, update on Projects to trphong;
