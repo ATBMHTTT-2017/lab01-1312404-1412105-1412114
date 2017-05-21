@@ -1,8 +1,3 @@
-CREATE DATABASE ProjectManagement
-GO
-USE ProjectManagement
-GO
-
 CREATE TABLE Employee
 (
     EmployeeID CHAR(5) PRIMARY KEY,
@@ -33,7 +28,7 @@ CREATE TABLE Department
     CONSTRAINT PK_Department PRIMARY KEY (DepartmentID, Branch)
 );
 
-CREATE TABLE Projects
+CREATE TABLE Project
 (
     ProjectID CHAR(6) PRIMARY KEY,
     ProjectName VARCHAR2(100),
@@ -58,5 +53,5 @@ CREATE TABLE Assignment
     Position VARCHAR2(20),
     SuppliedFund INT,
 
-    CONSTRAINT PK_Assignment PRIMARY KEY(Projects, Employee)
+    CONSTRAINT PK_Assignment PRIMARY KEY(Project, Employee)
 );
