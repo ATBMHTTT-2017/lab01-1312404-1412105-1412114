@@ -55,14 +55,14 @@ insert into EMPLOYEE values ('NV35', 'Nguyen Van BA', 'Ho Chi Minh', '0911384853
 insert into EMPLOYEE values ('NV36', 'Nguyen Van RA', 'Ho Chi Minh', '0911384853', 'a@gmail.com', 'KH', 'HCM', 700);
 
 --Insert PROJECT
-insert into PROJECTS values ('2017A1', 'Runing tracking',3500000,'KH','HN','NV09');
-insert into PROJECTS values ('2017A2', 'Share accidents application',2300000,'KH','HCM','NV33');
-insert into PROJECTS values ('2017A3', 'Cloud application',1500000,'KH','DN', 'NV21');
-insert into PROJECTS values ('2017B1', 'Salary increase',NULL,'NS','HN','NV07');
-insert into PROJECTS values ('2017B2', 'Staff cuts off',55000,'NS','DN','NV18');
-insert into PROJECTS values ('2017C1', 'Report 2017A1 Project',NULL,'KT','HN','NV25');
-insert into PROJECTS values ('2017C2', 'Report 2017A3 Project',NULL,'KT','DN','NV14');
-insert into PROJECTS values ('2017C3', 'Buy machine in quarter 2',2255000,'KT','HCM','NV26');
+insert into PROJECT values ('2017A1', 'Runing tracking',3500000,'KH','HN','NV09');
+insert into PROJECT values ('2017A2', 'Share accidents application',2300000,'KH','HCM','NV33');
+insert into PROJECT values ('2017A3', 'Cloud application',1500000,'KH','DN', 'NV21');
+insert into PROJECT values ('2017B1', 'Salary increase',NULL,'NS','HN','NV07');
+insert into PROJECT values ('2017B2', 'Staff cuts off',55000,'NS','DN','NV18');
+insert into PROJECT values ('2017C1', 'Report 2017A1 Project',NULL,'KT','HN','NV25');
+insert into PROJECT values ('2017C2', 'Report 2017A3 Project',NULL,'KT','DN','NV14');
+insert into PROJECT values ('2017C3', 'Buy machine in quarter 2',2255000,'KT','HCM','NV26');
 
 --Insert EXPENDITURE
 insert into EXPENDITURE values ('B2017A1','Funding for Running tracking Project',3500000,'2017A1');
