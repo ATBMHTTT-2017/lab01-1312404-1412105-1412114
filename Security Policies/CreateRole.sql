@@ -1,7 +1,7 @@
 ----Create ROLE
 create role Employee;
 create role DepartmentChief;
-create role BarnchManager;
+create role BranchManager;
 create role Director;
 create role ProjectManager;
 
@@ -45,30 +45,30 @@ grant Employee to NV35;
 grant Employee to NV36;
 
 --Grant role to DepartmentChief
-grant BarnchManager to DC01;
-grant BarnchManager to DC02;
-grant BarnchManager to DC03;
-grant BarnchManager to DC04;
-grant BarnchManager to DC05;
-grant BarnchManager to NV03;
-grant BarnchManager to NV09;
-grant BarnchManager to NV05;
-grant BarnchManager to NV14;
-grant BarnchManager to NV21;
-grant BarnchManager to NV17;
-grant BarnchManager to NV26;
-grant BarnchManager to NV33;
-grant BarnchManager to NV29;
+grant DepartmentChief to DC01;
+grant DepartmentChief to DC02;
+grant DepartmentChief to DC03;
+grant DepartmentChief to DC04;
+grant DepartmentChief to DC05;
+grant DepartmentChief to NV03;
+grant DepartmentChief to NV09;
+grant DepartmentChief to NV05;
+grant DepartmentChief to NV14;
+grant DepartmentChief to NV21;
+grant DepartmentChief to NV17;
+grant DepartmentChief to NV26;
+grant DepartmentChief to NV33;
+grant DepartmentChief to NV29;
 
 --Grant role to BranchManager
-grant DepartmentChief to BM01;
-grant DepartmentChief to BM02;
-grant DepartmentChief to BM03;
-grant DepartmentChief to BM04;
-grant DepartmentChief to BM05;
-grant DepartmentChief to NV02;
-grant DepartmentChief to NV13;
-grant DepartmentChief to NV25;
+grant BranchManager to BM01;
+grant BranchManager to BM02;
+grant BranchManager to BM03;
+grant BranchManager to BM04;
+grant BranchManager to BM05;
+grant BranchManager to NV02;
+grant BranchManager to NV13;
+grant BranchManager to NV25;
 
 --Grant role to Director
 grant Director to D01;
